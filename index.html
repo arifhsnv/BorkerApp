@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Cousine&family=DM+Sans:opsz@9..40&family=Doppio+One&family=Graduate&family=Inter&family=League+Gothic&family=Montserrat&family=MuseoModerno&family=Orbitron&family=Outfit&family=Plus+Jakarta+Sans:ital@0;1&family=Poppins&family=Racing+Sans+One&family=Roboto&family=Rufina&family=Sanchez&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Checked Value</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="write-value">
+        <div class="input">
+          <input
+            class="firstname"
+            placeholder="Employee FirstName"
+            type="text"
+          />
+          <input class="lastname" placeholder="Enter Lastname" type="text" />
+          <input class="salary" placeholder="Salary" type="number" />
+        </div>
+        <div class="buttons">
+          <button class="load">Load</button>
+          <button class="add">ADD</button>
+        </div>
+      </div>
+      <div class="information-employee">
+        <table>
+          <thead>
+            <tr>
+              <th>FirstName</th>
+              <th>Lastname</th>
+              <th>Salary</th>
+            </tr>
+          </thead>
+          <tbody class="bodyOfTable">
+            <!-- <tr>
+              <td>firstname</td>
+              <td>lastname</td>
+              <td>salary</td>
+            </tr> -->
+          </tbody>
+        </table>
+        <ul class="list">
+           
+        </ul>
+      </div>
+    </section>
+    <section class="login-password">
+   <div class="header">
+    <h1 class="login-information">Login</h1>
+   </div>
+  <div class="body-card">
+   <div class="email">
+    <label for="">Email</label>
+    <input class="email-input" placeholder="example@email.com" type="text">
+   </div>
+       <div class="password">
+        <label for="">Password</label>
+        <input placeholder="************" class="password-input" type="password">
+       </div>
+    <div class="login">
+      <div class="validation">
+        <!-- <p>Password is incorrect</p> -->
+        <!-- <p>Login is incorrect</p> -->
+       </div>
+      <button class="login-button">Login</button>
+    </div>
+    
+  </div>
+
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
